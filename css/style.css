@@ -1,0 +1,295 @@
+html, body{margin: 0;padding: 0; height: 100%; text-align: center;}
+section {min-height: 100%;}
+a {text-decoration: none;}
+li {list-style-type: none;}
+
+h1 {font-family: 'Roboto', sans-serif;  font-weight: 500; text-transform: uppercase;}
+h2, h3, h2, a {font-family: 'Roboto', sans-serif;  font-weight: 500;  color: #494949;  text-transform: uppercase;}
+h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
+h4, p {font-family: 'Roboto Slab', serif;color: #494949;}
+
+hr {  width: 30px;  height: 3px;  background: #494949;  border: 0;  margin: 0 auto 40px auto;}
+#logo, li, img, .button {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+/* HEADER **************************************************/
+
+header {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#logo {
+  width: 200px;
+  float: left;
+  margin: 10px 0 0 50px;
+}
+
+#logo:hover {
+  opacity: 0.5;
+}
+
+#logo img {
+  width: 100%;
+}
+
+header nav {
+  float: right;
+  margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 25px;
+}
+
+header nav ul li a {
+  font-size: 16px;
+}
+
+header nav ul li:hover {
+  padding-top: 5px;
+}
+
+/* HOME **************************************************/
+
+#home {
+  background: url(../img/landing.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home h1 {
+  margin: 240px auto 0 auto;
+  font-size: 110px;
+}
+
+#home h2 {
+  margin: 0 auto 0 auto;
+  font-size: 35px;
+}
+
+#home img {
+  width: 32px;
+  margin-top: 230px;
+  opacity: 0.7;
+}
+
+#home img:hover {
+  opacity: 1;
+}
+
+/* ABOUT **************************************************/
+
+#about img {
+  width: 350px;
+
+}
+
+#about img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#about h4 {
+  font-size: 25px;
+}
+
+#about p {
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+
+/* RECOMMENDED **************************************************/
+
+#recommended {
+  background-color: #f0f0f0;
+}
+
+#recommended {
+  width: 900;
+  margin: 0 auto 0 auto;
+}
+
+#recommended ul {
+  padding: 0;
+}
+
+#recommended ul li {
+  width: 33.3%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+#recommended img {
+  width: 280px;
+  height: 157px;
+  border-radius: 5px;
+}
+
+#recommended img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* CONTACT **************************************************/
+
+body form input, textarea {
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #494949;
+  outline: none;
+}
+
+body form input:first-child {
+  margin-top: 10px;
+}
+
+body form input {
+  width: 552px;
+  height: 30px;
+}
+
+body form input:last-child {
+  width: 552px;
+  height: 30px;
+}
+
+body form textarea {
+  width: 550px;
+  height: 200px;
+  resize: none;
+}
+
+.input_text {
+  color: #494949;
+  padding-left: 10px;
+}
+
+::-webkit-input-placeholder {color: #999999}
+::-moz-placeholder {color: #999999}
+:-ms-placeholder {color: #999999}
+:-moz-placeholder {color: #999999}
+
+.button {
+  background-color: #f0f0f0;
+  color: #494949
+}
+
+.button {
+  width: 566px;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #494949;
+  color: #f0f0f0;
+}
+
+/* FOOTER **************************************************/
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #3f3f3f;
+}
+
+footer p {
+  font-size: 12px;
+  color: #f0f0f0;
+  padding-top: 30px;
+}
+
+/* MEDIA QUERIES **************************************************/
+
+/* TABLETES */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: auto;
+  }
+
+  #logo {
+    width: 100px;
+    margin-top: 5px;
+  }
+
+  header nav {
+    margin-top: 0;
+  }
+
+  header nav ul li {
+    font-size: 12px;
+  }
+
+  #home h1 {
+    font-size: 90px;
+    margin-top: 200px;
+  }
+
+  #home h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    padding-top: 12%;
+  }
+
+  #about p {
+    width: 80%;
+  }
+
+  #recommended {
+    width: auto;
+  }
+
+  #recommended ul li {
+    width: 100%;
+    float: none;
+  }
+
+  #recommended ul li:last-child {
+    padding-bottom: 20%
+  }
+
+  #recommended img {
+    width: 55%;
+    height: auto;
+  }
+
+  form input, form textarea {
+    width: 60%;
+  }
+
+  .button {
+    width: 62%;
+  }
+}
+
+/* MOBILES */
+
+@media screen and (max-width: 480px) {
+  #logo {
+    width: 90px;
+    margin-left: 30px;
+  }
+
+  header nav {
+    margin: 0;
+    float: none;
+  }
+}

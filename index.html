@@ -1,0 +1,102 @@
+<!DOCTAPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gaming4Brothers | Website</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header ---------------------------------------------------------------------->
+
+    <header>
+      <div id="logo">
+        <a href="https://www.youtube.com/channel/UCGuIpvV_jjKWwxruyOudFmA" target="_blank">
+          <img src="img/logo.png" alt="Logo">
+        </a>
+      </div>
+
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#recommended">Recommended</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home ---------------------------------------------------------------------->
+
+    <section id="home">
+      <hr>
+      <h1>Gaming4Brothers</h1>
+      <h2>Tutorials &amp; Gaming</h2>
+      <a href="#about">
+        <img src="img/pfeil.png" alt="Pfeil">
+      </a>
+    </section>
+
+    <!-- About ---------------------------------------------------------------------->
+
+    <section id="about">
+      <h3>About</h3>
+      <hr>
+      <img src="img/avatar.png" alt="Avatar">
+      <h4>Gaming4Brothers</h4>
+      <p>Hi leute ,ich bin nils, Gaming4Brothers, und ihr werdet regelmäßig auf meinem Kanal von Gaming bis zu Tutorials alles finden können.</p>
+    </section>
+
+    <!-- Recommended ---------------------------------------------------------------------->
+
+    <section id="recommended">
+      <h3>Recommended</h3>
+      <hr>
+
+      <div id="recommended">
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=S_QT9Ck-Qyg&t=11s" target="_blank"><img src="img/Banner.png" alt="Projekt_01"></a></li>
+          <li><a href="https://www.youtube.com/watch?v=sK6NdODVkuY" target="_blank"><img src="img/Banner1.png" alt="Projekt_02"></a></li>
+          <li><a href="https://www.youtube.com/watch?v=wg2x0x1LJfI" target="_blank"><img src="img/hintergrund.png" alt="Projekt_03"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact ---------------------------------------------------------------------->
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <hr>
+      <body>
+        <form action="senden.php" method="post">
+            Name: <input type="text" name="von" /><br />
+            E-mail: <input type="text" name="mail" /><br />
+            Betreff: <input type="text" name="betreff" /><br />
+            <br />
+            Nachricht:<br />
+            <textarea name="nachricht"></textarea>
+            <br />
+            <input class="button" type="submit" value="Senden">
+        </form>
+      </body>
+    </section>
+
+    <!-- Footer ---------------------------------------------------------------------->
+
+    <footer>
+      <p>
+        &copy; 2018-Now,  Gaming4Brothers
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/mobile-menu.js"></script>
+  </body>
+</html>
